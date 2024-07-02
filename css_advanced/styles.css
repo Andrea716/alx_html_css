@@ -1,23 +1,23 @@
 /*header*/
 body {
   margin: 0;
-  font-family: Source Sans Pro, sans-serif; /* Replace with actual font */
+  font-family: Source Sans Pro, sans-serif; 
 }
 
 header {
-  background: linear-gradient(#29303D, #071629); /* Replace with actual colors */
+  background: linear-gradient(#29303D, #071629); 
   color: white;
   text-align: center;
   padding: 20px 0;
 }
 
 header h1 {
-  font-size: 0.75em; /* Adjust based on design */
+  font-size: 0.75em; 
   margin: 0;
 }
 
 header p {
-  font-size: 0.75em; /* Adjust based on design */
+  font-size: 0.75em; 
 }
 
 .header-content {
@@ -29,8 +29,8 @@ header p {
 .header-image {
   width: 100%;
   height: auto;
-  max-height: 300px; /* Adjust this value based on your design */
-  object-fit: cover; /* This ensures the image covers the space */
+  max-height: 300px; 
+  object-fit: cover; 
 }
 
 h1 {
@@ -40,11 +40,11 @@ h1 {
 }
 
 .highlight {
-  color: #a55eea; /* Use your desired highlight color */
+  color: #a55eea; 
 }
 
 button {
-  background-color: #C271FF; /* Replace with actual color */
+  background-color: #C271FF; 
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -66,24 +66,24 @@ button {
 
 .profile-card img {
   border-radius: 50%;
-  width: 100px; /* Adjust based on design */
-  height: 100px; /* Adjust based on design */
+  width: 100px; 
+  height: 100px; 
 }
 
 .profile-card p {
-  font-size: 0.9em; /* Adjust based on design */
+  font-size: 0.9em; 
 }
 
 .profile-card h3 {
-  font-size: 1.2em; /* Adjust based on design */
+  font-size: 1.2em; 
   margin: 10px 0;
 }
 
 /*quote-section*/
 .quote-section {
-  background-color: #C271FF; /* Replace with actual color */
-  color: white; /* Adjust as needed */
-  padding: 20px; /* Adjust for spacing */
+  background-color: #C271FF; 
+  color: white; 
+  padding: 20px; 
   display: flex;
   align-items: center;
   text-align: left;
@@ -91,25 +91,25 @@ button {
 
 .quote-section img {
   border-radius: 50%;
-  width: 80px; /* Adjust based on design */
-  height: 80px; /* Adjust based on design */
-  margin-right: 20px; /* Space between image and text */
+  width: 80px; 
+  height: 80px; 
+  margin-right: 20px; 
 }
 
 .quote-section blockquote {
   font-style: italic;
-  font-size: 1.2em; /* Adjust based on design */
+  font-size: 1.2em; 
   margin: 0;
 }
 
 .quote-section h3 {
-  font-size: 1em; /* Adjust based on design */
+  font-size: 1em; 
   margin: 10px 0 0 0;
 }
 
 .quote-section p {
-  font-size: 0.9em; /* Adjust based on design */
-  color: #FFFFFF; /* Replace with actual color */
+  font-size: 0.9em; 
+  color: #FFFFFF; 
   margin: 0;
 }
 
