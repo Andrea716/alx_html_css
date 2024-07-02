@@ -1,1 +1,355 @@
+/*header*/
+body {
+  margin: 0;
+  font-family: Source Sans Pro, sans-serif; /* Replace with actual font */
+}
 
+header {
+  background: linear-gradient(#29303D, #071629); /* Replace with actual colors */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 0.75em; /* Adjust based on design */
+  margin: 0;
+}
+
+header p {
+  font-size: 0.75em; /* Adjust based on design */
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+  max-height: 300px; /* Adjust this value based on your design */
+  object-fit: cover; /* This ensures the image covers the space */
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 20px 0 0;
+  color: #333;
+}
+
+.highlight {
+  color: #a55eea; /* Use your desired highlight color */
+}
+
+button {
+  background-color: #C271FF; /* Replace with actual color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.profile-card {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.profile-card img {
+  border-radius: 50%;
+  width: 100px; /* Adjust based on design */
+  height: 100px; /* Adjust based on design */
+}
+
+.profile-card p {
+  font-size: 0.9em; /* Adjust based on design */
+}
+
+.profile-card h3 {
+  font-size: 1.2em; /* Adjust based on design */
+  margin: 10px 0;
+}
+
+/*quote-section*/
+.quote-section {
+  background-color: #C271FF; /* Replace with actual color */
+  color: white; /* Adjust as needed */
+  padding: 20px; /* Adjust for spacing */
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.quote-section img {
+  border-radius: 50%;
+  width: 80px; /* Adjust based on design */
+  height: 80px; /* Adjust based on design */
+  margin-right: 20px; /* Space between image and text */
+}
+
+.quote-section blockquote {
+  font-style: italic;
+  font-size: 1.2em; /* Adjust based on design */
+  margin: 0;
+}
+
+.quote-section h3 {
+  font-size: 1em; /* Adjust based on design */
+  margin: 10px 0 0 0;
+}
+
+.quote-section p {
+  font-size: 0.9em; /* Adjust based on design */
+  color: #FFFFFF; /* Replace with actual color */
+  margin: 0;
+}
+
+/* Videos list section styles */
+.videos-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.videos-list h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.video-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.video-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.video-card h3 {
+  margin-top: 15px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.video-card p {
+  font-size: 0.9em;
+  color: #777;
+  margin: 10px 0;
+}
+
+.video-card .author {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.video-card .author img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.video-card .author h4 {
+  font-size: 0.9em;
+  color: #333;
+}
+
+.video-card .stars {
+  display: flex;
+  margin-top: 10px;
+}
+
+.video-card .stars i {
+  color: #ffb400; /* Gold star color */
+}
+
+.video-card .duration {
+  font-size: 0.8em;
+  color: #777;
+  margin-top: 10px;
+}
+
+.video-card .play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*membership*/
+.membership-section {
+  background-color: #0a0e27;
+  padding: 50px 0;
+  text-align: center;
+  color: white;
+}
+
+.membership-section h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.membership-section h2 span {
+  color: purple;
+}
+
+.membership-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.membership-card {
+  width: 20%;
+  padding: 20px;
+}
+
+.membership-card .icon {
+  font-size: 3em;
+  color: purple;
+  margin-bottom: 10px;
+}
+
+.membership-card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.membership-card p {
+  font-size: 0.9em;
+}
+
+.register-button {
+  background-color: purple;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-button:hover {
+  background-color: darkpurple;
+}
+
+/*FAQ*/
+.faq-section {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.faq-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+.faq-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.faq-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 1em;
+  color: #666;
+  line-height: 1.6;
+}
+
+/*footer*/
+.footer {
+  background-color: #0b132b;
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-left img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.footer-left span {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.footer-right a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.5em;
+  transition: color 0.3s;
+}
+
+.footer-right a:hover {
+  color: #d4af37; /* Gold color on hover */
+}
+
+.footer-bottom {
+  margin-top: 10px;
+}
+
+.footer-bottom p {
+  font-size: 0.9em;
+  color: #aaa;
+}
