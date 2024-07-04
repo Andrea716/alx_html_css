@@ -1,1 +1,161 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --link-hover: #FF6565;
+    --button-hover-opacity: 0.9;
+    --max-width: 1000px;
+    --button-bg-color: #FF6565;
+    --input-border-color: #ccc;
+    --input-focus-border-color: #FF6565;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    background: url(./images/headphones_hero_1.jpg) no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links a:hover,
+.nav-links a:active {
+    color: var(--link-hover);
+}
+
+/* Hero Content */
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--link-hover);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.cta-button:hover,
+.cta-button:active {
+    opacity: var(--button-hover-opacity);
+}
+
+.description {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .hero-content h1 {
+        font-size: 1.5em;
+    }
+
+    .hero-content p,
+    .description {
+        font-size: 0.9em;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+
+    .service {
+        margin-bottom: 20px;
+    }
+}
+
+/* What We Do Section */
+.what-we-do {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.what-we-do h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.what-we-do p {
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.icon-item {
+    flex: 1 1 200px; 
+    margin: 20px;
+    text-align: center;
+}
+
+.icon-item img {
+    width: 100px; 
+    height: 100px; 
+    margin-bottom: 10px;
+}
+
+.icon-item h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.icon-item p {
+    margin: 0;
+}
 
