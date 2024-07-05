@@ -1,1 +1,54 @@
+.our-results {
+    text-align: center;
+    padding: 50px 20px;
+    color: #fff;
+    background: url('path_to_background_image') no-repeat center center/cover; 
+}
+
+.our-results h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.our-results p {
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.pentagons-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pentagon-item {
+    flex: 1 1 200px; 
+    margin: 20px;
+    text-align: center;
+}
+
+.pentagon {
+    width: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 85px solid #FF6565; 
+    position: relative;
+    margin: 0 auto 10px;
+}
+
+.pentagon:before {
+    content: "";
+    position: absolute;
+    top: -52px;
+    left: -50px;
+    width: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 30px solid #FF6565;
+}
+
+.pentagon-item p {
+    margin: 0;
+    font-size: 1.2em;
+}
 
