@@ -1,3 +1,4 @@
+/*Animation*/
 /* General styles for both sections */
 h2, p {
     text-align: center;
@@ -11,7 +12,7 @@ h2, p {
 }
 
 .icon-item, .result-item {
-    flex: 1 1 200px; /* Adjust the flex basis as necessary */
+    flex: 1 1 200px; 
     margin: 20px;
     text-align: center;
     transition: transform 0.3s ease, opacity 0.3s ease;
